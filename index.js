@@ -32,6 +32,9 @@ client.on('messageCreate', async function(message) {
       case 'cat':
         message.reply(await getCat())
         break
+      case 'boobs':
+        message.reply('https://vk.com/sticker/1-70957-128b.png')
+        break
       default:
         message.reply("unknown command")
         break
