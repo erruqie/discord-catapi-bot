@@ -1,0 +1,24 @@
+{
+  "name": "discord-catapi-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clownless/discord-catapi-bot.git"
+  },
+  "author": "clownl3ss",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/clownless/discord-catapi-bot/issues"
+  },
+  "homepage": "https://github.com/clownless/discord-catapi-bot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
